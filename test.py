@@ -1,5 +1,4 @@
-
-from opt_einsum.backends import torch
+import torch
 
 mask = torch.randn(4).byte() % 2
 
