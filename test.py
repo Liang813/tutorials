@@ -1,6 +1,6 @@
 from tkinter import Variable
 
-from opt_einsum.backends import torch
+import torch
 from tensorflow.python.ops import nn
 
 from beginner_source.blitz.cifar10_tutorial import net
