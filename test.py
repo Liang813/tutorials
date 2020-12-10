@@ -5,7 +5,7 @@ from tensorflow.python.ops import nn
 
 from beginner_source.former_torchies.nn_tutorial import net
 
-output = net(input)
+output = net(1,10)
 target = Variable(torch.arange(1, 11))  # a dummy target, for example
 criterion = nn.MSELoss()
 
